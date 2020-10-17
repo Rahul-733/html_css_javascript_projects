@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/bg.jpg) no-repeat fixed;
+     background-size: cover;
+    overflow: hidden;
+}
+.alian-1,.alian-2,.alian-3{
+    position: absolute;
+}
+.alian-1 {
+    top: 77%;
+    left: 47%;
+    animation: alian1move 3s linear infinite ;
+}
+.alian-2 {
+    top: 65%;
+    left: 74%;
+    animation: alian2move 3s linear infinite ;
+}
+.alian-3 {
+    top: 74%;
+    left: 90%;
+    animation: alian3move 3s linear infinite ;
+}
+/*********************************************Alian1 Animation start***********************************/
+@keyframes alian1move{
+    0%{
+        top:77%;
+        left:47%;
+    }
+    50%{
+        top:67%;
+        left:47%;
+    }
+    100%{
+        top:77%;
+        left:47%;
+    }
+}
+/*********************************************Alian1 Animation End***********************************/
+
+/*********************************************Alian2 Animation start***********************************/
+@keyframes alian2move{
+    0%{
+        top: 65%;
+        left: 74%;
+    }
+    50%{
+        top: 55%;
+        left: 74%;
+    }
+    100%{
+        top: 65%;
+        left: 74%;
+    }
+}
+/*********************************************Alian2 Animation End***********************************/
+
+/*********************************************Alian3 Animation start***********************************/
+@keyframes alian3move{
+    0%{
+        top: 74%;
+        left: 90%;
+    }
+    50%{
+        top: 64%;
+        left: 90%;
+    }
+    100%{
+        top: 74%;
+        left: 90%;
+    }
+}
+/*********************************************Alian3 Animation End***********************************/
+
+
+
+/*********************************************spaceship css start***********************************/
+.spaceship1,.spaceship2,.spaceship3{
+    position: absolute;
+}
+.spaceship1{
+    right:-20%;
+    top:10%;
+    animation:spaceship1move 100s linear infinite;
+}
+.spaceship2{
+    top:17%;
+    right:-20%;
+    animation:spaceship1move 200s linear infinite ;
+    animation-delay: 5s;
+}
+.spaceship3{
+    right:-20%;
+    top:2%;
+    animation:spaceship1move 300s linear infinite ;
+    animation-delay: 15s;
+}
+/*********************************************spaceship css End***********************************/
+
+
+/*********************************************spaceship Aniamtion start***********************************/
+
+@keyframes spaceship1move{
+    0%{
+        right:-20%;
+       
+    }
+    50%{
+        right:110%;
+    }
+    100%{
+        right:-20%;
+        
+    }
+}
+/*********************************************spaceship Aniamtion End***********************************/
+
+
+
+
+/*********************************************Astronat1 css start***********************************/
+.astronat1{
+    position: absolute;
+    left: -15%;
+    top:0%;
+    animation:astronat1move 50s linear;
+}
+/*********************************************Astronat1 css End***********************************/
+
+
+
+
+/*********************************************Astronat1 Animation start***********************************/
+@keyframes astronat1move{
+    0%{
+        left: -15%;
+        top:0%;
+    }
+    100%{
+        left: 108%;
+        top:25%;
+    }
+}
+/*********************************************Astronat1 Animation End***********************************/
+
+
+
+
+/*********************************************Astronat2 css start***********************************/
+.astronat2{
+    position: absolute;
+    right: 5%;
+    top:-50%;
+    animation:astronat2move 15s linear;
+    animation-delay: 60s;
+}
+/*********************************************Astronat2 css End***********************************/
+
+
+/*********************************************Astronat2 Animation start***********************************/
+@keyframes astronat2move{
+    0%{
+        right:5%;
+        top:-50%;
+    }
+    100%{
+        right:105%;
+        top:105%;
+    }
+}
+/*********************************************Astronat2 Animation End***********************************/
